@@ -33,13 +33,7 @@ public class CommonPage extends AbstractObjectPage {
         super(driver);
     }
 
-    public void clickDesktops(){
-        linkDesktops.click();
-    }
 
-    public void clickShowAllDesktops(){
-        linkShowAllDesktops.click();
-    }
 
     public void clickButtonCartTotal (){
         buttonCartTotal.click();
@@ -53,9 +47,6 @@ public class CommonPage extends AbstractObjectPage {
         buttonProductRemoveFromCart.click();
     }
 
-    public void searchItem(String searchItem){
-        searchBox.sendKeys(searchItem, Keys.ENTER);
-    }
 
     public void clickShowAllMp3Players(){
         mp3PlayersLink.click();
